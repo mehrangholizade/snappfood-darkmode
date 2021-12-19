@@ -1,0 +1,570 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+
+
+body
+{
+    background-color: white;
+    direction: rtl;
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    margin: 30px 50px;
+}
+.col-1
+{
+   background-image: url(images/hero-image.png);
+   background-repeat: no-repeat;
+   background-position: -100px 70px;
+}
+.header{
+    direction: ltr;
+    display: flex;
+    justify-content: space-between;
+}
+.btns
+{
+     margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.snappfood-logo
+{
+    width: 300px;
+    margin-left: 30%;
+}
+.btn-login
+{
+    background-color:darkmagenta;
+    padding: 12px;
+    border-radius: 10%;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-family:cursive;
+    transition: 1s;
+
+}
+.btn-login:hover
+{
+    opacity: .7;
+}
+.btn-seller-reg
+{
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 22px;
+    cursor: pointer;
+    font-family:arial;
+    margin-bottom: 40px;
+}
+#darkmode,#lightmode
+{
+    cursor: pointer;
+}
+
+.address-input
+{
+    position: relative;
+    width: 100%;
+    margin-right: 100px;
+}
+.address-input #first-icon
+{
+    position: absolute;
+    right: 10px;
+    top: 10;
+}
+.address-input #sec-icon
+{
+    position: absolute;
+    top: 5px;
+    right: 380;
+    padding: 8px;
+    border-style: none;
+    border-radius: 200px;
+    background-color: #ff00a6;
+    cursor: pointer;
+}
+.address-input input
+{
+    position: relative;
+    width:30%;
+    height: 50px;
+    border-style: solid;
+    border-radius: 200px;
+    padding-right: 35px;
+    
+}
+.header-content
+{
+    display: block;
+    text-align: right;
+    direction: rtl;
+    margin-right: 100px;
+}
+.header-content p
+{
+    font-size: 18px;
+    color:slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-content #order
+{
+    font-size: 46px;
+    width: max-content;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding: 10px 10px ;
+    background-color: #ffffff99;
+}
+.menu a img
+{
+    width:40%;
+    align-items: center;
+    transition: width 1s;
+}
+.menu a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #53565c;
+}
+.menu a img:hover
+{
+    width: 60%;
+}
+
+.row-category
+{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+}
+.col-category
+{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.food-types
+{
+   position: relative;
+   padding: 10px;
+   overflow: hidden;
+   height: 130px;
+}
+.food-types img
+{
+    width: 100%;
+    border-radius: 15px;
+}
+.food-name
+{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    margin-bottom: -20px;
+    padding: 5px 0px ;
+    border-top-left-radius: 15px;
+}
+.text
+{
+   font-size: 20px;
+   margin-right: 10px;
+   transition: 2s;
+}
+.text:hover
+{
+    margin-right: 20px;
+}
+.about-us
+{
+    margin-top: 230px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(235, 237, 240);
+    border-bottom-right-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-us-content
+{
+    margin-right: 100px;
+}
+.about-us-content h1
+{
+    font-size: 50;
+}
+.about-us-content p
+{
+    font-size: 25;
+}
+label
+{
+    font-size: 20px;
+}
+.phone-number
+{
+    width: 55%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 0px;
+    
+}
+.phone-number input
+{
+    height: 25px;
+    margin: 10px;
+    border:solid transparent;
+    
+}
+.phone-number .btn-link
+{
+    background-color:darkmagenta;
+    padding: 12px;
+    border-radius: 10%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:cursive;
+    
+}
+.about-image
+{
+    position: relative;
+    width: 40%    
+}
+.about-image img
+{
+    position: absolute;
+    width: 100%;
+    left: 100;
+    bottom: -20%;
+}
+.our-work
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 200px 20px;
+    background-color: rgb(235, 237, 240);
+    border-radius: 50px ;
+}
+.business
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    width: 100%
+    height: 280px;
+    
+}
+.business-img img
+{
+   position: absolute; 
+   left: 40px;
+   bottom: 70px;
+}
+.business h1
+{
+    font-size: 40px;
+}
+.business p
+{
+    font-size: 25px;
+    color: #666666;
+}
+.btn-reg
+{
+    background-color:darkmagenta;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-family:cursive;
+    transition: opacity 1s;
+}
+.btn-reg:hover
+{
+    opacity: .5;
+}
+.snappfood-cities
+{
+    direction: rtl;
+}
+.cities
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin-right: 20px;
+}
+.city
+{
+    
+    width: 8.33%;
+    padding: 5px 0px;
+}
+.city a
+{
+    text-decoration: none;
+    color: #A6AAAD;
+}
+.footer
+{
+    position: relative;
+    background-color: rgb(235, 237, 240);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px ;
+}
+.footer-p1
+{
+    width:30%;
+}
+.footer-p2
+{
+    width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer-p2 li
+{
+    list-style: none;
+    margin: 20px;
+}
+.footer-p2 li a
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: #666666;
+}
+.footer-p3
+{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-p3 li
+{
+    list-style: none;
+    margin: 20px;
+}
+.footer-p3 li a
+{
+    text-decoration: none;
+    color: #666666;
+    font-size: 16px;
+}
+.footer-p4
+{
+     width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.footer-head
+{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+}
+.footer-head img
+{
+    width:50%;
+    
+}
+.footer-head h3
+{
+    font-size: 25px;
+}
+.icons
+{
+    margin: 30px 0px;
+    width: 100%;
+}
+.icons button
+{
+    border-radius: 50%;
+    padding: 8px;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 5px 10px 18px white;
+    margin: 10px 3px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1200px) {
+    .col-1{
+        background-position: -300px 200px;
+    }
+    .address-input
+    {
+        width: 90%;
+    }
+    .address-input #sec-icon
+    {
+        right: 230px;
+    }
+    .about-image img
+    {
+        width: 100%;
+        left: 10px;
+        bottom: 10%;
+    }
+    .food-name
+    {
+        width: 30%;
+    }
+    .city
+    {
+        width: 20%;
+    }
+    .icons
+    {
+        margin: 0px;
+        width: 100%;
+    }
+
+    
+}
+@media only screen and (max-width: 1023px) {
+    .col-1 {
+        background-position: -600px 200px;
+    }
+
+    .address-input {
+        width: 80%;
+    }
+
+    .about-image {
+        display: none;
+    }
+    .menu img{
+        width: 25%;
+    }
+
+    .about-us-content {
+        width: 100%;
+    }
+    .phone-number {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us-content h1 {
+        font-size: 30px;
+    }
+    .about-us-content p{
+        font-size: 20px ;
+    }
+
+    .col-category {
+        width: 25%;
+    }
+
+    .about-us-content div {
+        width: 50%;
+    }
+
+    .city {
+        width: 25%;
+    }
+
+    .icons {
+        margin: 0px;
+    }
+
+@media only screen and (max-width:800px) {
+    .col-1 {
+        background-position: -800px 200px;
+    }
+
+    .address-input {
+        width: 80%;
+    }
+    .address-input #sec-icon
+    {
+        right:200px;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .about-us-content {
+        width: 100%;
+    }
+    .phone-number {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us-content h1 {
+        font-size: 30px;
+    }
+    .about-us-content p{
+        font-size: 20px ;
+    }
+
+    .col-category {
+        width: 25%;
+    }
+    .business
+    {
+        width: 50%;
+    }
+
+    .business-img img
+    {
+        display: none;
+    }
+
+    .about-us-content div {
+        width: 70%;
+    }
+
+    .city {
+        width: 25%;
+    }
+
+    .icons {
+        margin: 0px;
+        width: 80%;
+    }
+   
+}
